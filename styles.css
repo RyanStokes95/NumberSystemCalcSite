@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+html, 
+body{
+    margin: 0;
+}
+
+#container{
+    background-color: rgb(235, 225, 225);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#header{
+    background-color: rgb(104, 99, 99);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10vh;
+}
+
+#calcContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(161, 158, 158);
+    height: 80vh;
+}
+
+#footer{
+    background-color: rgb(104, 99, 99);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10vh;
+}
